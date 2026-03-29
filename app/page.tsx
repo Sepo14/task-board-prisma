@@ -21,7 +21,7 @@ export default async function Home() {
       <InitCookie />
       <main className="flex relative min-h-screen w-full flex-col items-center overflow-hidden bg-zinc-50">
         <div className="flex pt-16 items-center gap-4 mb-5">
-          <Image src={"/logo.svg"} alt="logo" width={50} height={50}></Image>
+          <Image src={"/Logo.svg"} alt="logo" width={50} height={50}></Image>
           <h2 className="text-4xl">My Task Board</h2>
           <Image src={'/Edit_duotone.svg'} alt='edit' width={30} height={30} />
         </div>
