@@ -2,8 +2,8 @@
 import Image from "next/image";
 import { useState } from "react";
 import EditTaskForm from "./edit_form";
-import { Status } from "@/app/generated/prisma/enums";
-import { Task } from "@/app/generated/prisma/client";
+import { Task } from "@/src/generated/client";
+import { Status } from "@/src/generated/client";
 
 export default function EventButton(task: { task: Task }) {
 
