@@ -1,6 +1,6 @@
 "use server";
 
-import { Status } from "@/app/generated/prisma/enums";
+import { Status } from "@/src/generated/enums";
 import prisma from "@/lib/prisma";
 import { revalidatePath } from "next/cache";
 import { cookies } from "next/headers";
